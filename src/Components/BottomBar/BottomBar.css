@@ -1,0 +1,57 @@
+/* BottomBar.css */
+
+.bottom-bar-container {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.bottom-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  max-width: 200px;
+  margin: 1rem;
+}
+
+.column h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.column h4 {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.divider {
+  border-top: 1px solid #666;
+  margin: 2rem 0;
+}
+
+.payment-methods {
+  margin-bottom: 1rem;
+  justify-content: left;
+}
+
+.payment-methods p {
+  font-size: 14px;
+}
+.icon{
+  text-align: right;
+}
+.icon .ion-icon{}
+
+@media (max-width: 768px) {
+  .column {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

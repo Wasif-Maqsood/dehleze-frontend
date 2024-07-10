@@ -1,0 +1,84 @@
+.reg-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.reg-cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 150px; /* Increased height to accommodate button */
+    max-width: 250px; /* Adjust max-width for responsiveness */
+    width: 100%; /* Take full width of the parent container */
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.reg-cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.reg-cards .card p.second-text {
+    font-size: 0.7em;
+}
+
+.reg-cards .card:hover {
+    transform: scale(1.1);
+}
+
+.reg-cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9);
+}
+
+.reg-cards .register-btn1 {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.reg-cards .register-btn1:hover {
+    background-color: #3b82f6;
+    transform: scale(1.05);
+}
+.reg-cards .register-btn2 {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.reg-cards .register-btn2:hover {
+    background-color: #f43f5e;
+    transform: scale(1.05);
+}
+
+/* Example background colors */
+.reg-cards .red {
+    background-color: #f43f5e;
+}
+
+.reg-cards .blue {
+    background-color: #3b82f6;
+}
+
+.reg-cards .green {
+    background-color: #22c55e;
+}

@@ -1,0 +1,96 @@
+.container {
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+}
+.steps {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.steps h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.steps .step {
+    flex: 1;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.steps .step img {
+    height: 20px;
+    margin-right: 20px;
+}
+
+.steps .step .text {
+    flex: 1;
+}
+
+.steps .step .text h2 {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.steps .step .text p {
+    font-size: 0.5rem;
+}
+
+.spacer {
+    height: 120px; 
+}
+.why-sell {
+    margin: 20px 0;
+}
+
+.why-sell h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benefit {
+    display: flex;
+    align-items: center;
+    width: 30%; 
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.benefit img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.benefit .text {
+    flex: 1;
+}
+
+.benefit .text h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.benefit .text p {
+    font-size: 1rem;
+    margin: 0;
+}

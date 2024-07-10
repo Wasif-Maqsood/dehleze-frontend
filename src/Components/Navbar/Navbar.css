@@ -1,0 +1,77 @@
+/* Navbar.css */
+
+.logo {
+  height: 50px;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: #2407a2 !important;
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  color: #000;
+}
+
+.cart-icon {
+  margin-right: 5px;
+}
+
+.cart-count {
+  position: relative; /* Use relative positioning here */
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically */
+  right: 5px; /* Adjust for proper positioning relative to the cart icon */
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+
+/* Optional: Styles for mobile view (adjust breakpoint if needed) */
+@media (max-width: 768px) {
+  .cart-count {
+    right: 10px;  /* Adjust as needed */
+  }
+}
+
+.user-dropdown .dropdown-menu {
+  min-width: 10rem;
+}
+
+.dropdown-item {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.nav-icons .dropdown-toggle::after {
+  display: none;
+}
+
+.nav-icons .dropdown-menu {
+  right: 0;
+  left: auto;
+}
